@@ -1,0 +1,38 @@
+.board {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.player,
+.area {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.player {
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.row[data-player="1"] {
+  color: #a4caa4;
+}
+
+.row[data-player="2"] {
+  color: #8484ca;
+}
+
+.selectQuestions {
+  margin-top: auto;
+  color: #343456;
+  font-size: 1.5rem;
+  font-weight: bold;
+  align-self: center;
+}

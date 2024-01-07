@@ -1,0 +1,21 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 1rem;
+  cursor: default;
+}
+
+.title {
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  color: #343456;
+}
+
+.timer {
+  text-align: center;
+  color: #343456;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

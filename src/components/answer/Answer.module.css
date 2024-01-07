@@ -1,0 +1,18 @@
+.root {
+  color: #343456;
+  padding: 0.75rem;
+}
+
+.root[data-status="correct"] {
+  pointer-events: none;
+  color: #34aa34;
+}
+
+.root[data-status="incorrect"] {
+  pointer-events: none;
+  color: #aa3434;
+}
+
+.clicked {
+  border: solid 1px #343456;
+}
