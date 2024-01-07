@@ -48,7 +48,7 @@ export const Settings: React.FC = () => {
             className={css.newGameButton}
             onClick={() => selectQuestions("")}
           >
-            New game
+            Nová hra
           </button>
         </div>
       )}
