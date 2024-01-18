@@ -1,12 +1,11 @@
 .trigger {
   all: unset;
-  width: 4rem;
-  height: 4rem;
-  font-size: 2rem;
+  min-width: 10vh;
+  min-height: 10vh;
+  font-size: clamp(1rem, 16px + 1vh, 2rem);
   background-color: #deeeff;
   color: #343456;
   border: 2px solid #343456;
-  padding: 1rem;
   text-align: center;
   border-radius: 0.5rem;
 }
